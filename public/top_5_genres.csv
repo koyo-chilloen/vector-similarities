@@ -1,0 +1,36 @@
+id,title,genre_tags,genre1_name,genre1_value,genre2_name,genre2_value,genre3_name,genre3_value,genre4_name,genre4_value,genre5_name,genre5_value
+31099979,Children_Jumping in the Sunlight.mp3,['singerSongwriter'],singerSongwriter,0.0160,jazz,0.0103,pop,0.0093,rock,0.0080,ambient,0.0062
+31099988,FunkSoul_Funky Groove Tonight.mp3,"['electronicDance', 'rnb']",electronicDance,0.2691,rnb,0.1685,funkSoul,0.0599,pop,0.0350,ambient,0.0331
+27639511,Neon Pulse.mp3,['electronicDance'],electronicDance,0.7425,ambient,0.0711,pop,0.0627,rnb,0.0240,rapHipHop,0.0168
+31099986,FolkCountry_Down by the County Line.mp3,['folkCountry'],folkCountry,0.3582,pop,0.0400,jazz,0.0240,blues,0.0235,rock,0.0076
+31099957,JS-Don't Ever Leave Me.mp3,['classical'],classical,0.4993,jazz,0.2085,ambient,0.0209,pop,0.0118,singerSongwriter,0.0073
+31099954,"JH-Dave Brubeck, The Dave Brubeck Quartet - Take Five.mp3",['jazz'],jazz,0.9113,latin,0.0641,funkSoul,0.0448,singerSongwriter,0.0329,classical,0.0157
+27639516,March of the Unyielding.mp3,"['ambient', 'electronicDance']",ambient,0.1072,electronicDance,0.0902,rock,0.0547,pop,0.0535,metal,0.0416
+31099977,Blues_Smoky Room Blues.mp3,['blues'],blues,0.3294,pop,0.0276,rock,0.0195,funkSoul,0.0157,jazz,0.0105
+31099950,PH-QWER .mp3,"['pop', 'rnb']",pop,0.0486,rnb,0.0423,rock,0.0083,rapHipHop,0.0045,funkSoul,0.0033
+27639513,Midnight Sway.mp3,['ambient'],ambient,0.1540,rnb,0.1101,electronicDance,0.0723,pop,0.0455,rapHipHop,0.0386
+27639522,Cozy Dreams.mp3,['ambient'],ambient,0.1354,blues,0.0903,rock,0.0776,pop,0.0562,jazz,0.0413
+31099991,Latin_Dancing in the Moonlight.mp3,['latin'],latin,0.5407,pop,0.1590,jazz,0.0494,rock,0.0327,singerSongwriter,0.0052
+31099984,FolkCountry_By the Firelight.mp3,['folkCountry'],folkCountry,0.7660,pop,0.0253,jazz,0.0161,rock,0.0105,blues,0.0099
+31125433,Pretty Bear.mp3,"['metal', 'ambient', 'rock']",metal,0.0747,ambient,0.0583,rock,0.0541,jazz,0.0289,pop,0.0257
+31099982,Disco_Dance All Night.mp3,['electronicDance'],electronicDance,0.2614,rnb,0.1496,pop,0.1318,rapHipHop,0.0737,funkSoul,0.0515
+31099953,JH-Autumn Leaves.mp3,['jazz'],jazz,0.8110,funkSoul,0.0683,latin,0.0473,singerSongwriter,0.0340,classical,0.0249
+27639509,Rising Dawn.mp3,"['ambient', 'electronicDance']",ambient,0.0706,electronicDance,0.0599,metal,0.0425,rock,0.0379,pop,0.0257
+31100000,Slay.mp3,['rnb'],rnb,0.4344,rapHipHop,0.2199,funkSoul,0.2112,pop,0.1177,reggae,0.0199
+31099992,Metal_Wrath of the Abyss.mp3,['metal'],metal,0.4195,rock,0.0902,ambient,0.0338,singerSongwriter,0.0290,pop,0.0238
+27639508,Storm of Chaos.mp3,['metal'],metal,0.4388,rock,0.0606,ambient,0.0553,pop,0.0269,classical,0.0178
+31099959,PS-Ariana Grande - pov.mp3,"['rnb', 'pop']",rnb,0.8643,pop,0.5239,rapHipHop,0.1632,funkSoul,0.0268,electronicDance,0.0261
+31099952,PH-NewJeans 'Hype Boy' .mp3,"['rnb', 'pop']",rnb,0.7222,pop,0.4859,rapHipHop,0.1222,electronicDance,0.0487,rock,0.0219
+31099951,PH-Taylor Swift - Anti-Hero.mp3,"['rnb', 'pop', 'electronicDance']",rnb,0.3362,pop,0.2859,electronicDance,0.2827,folkCountry,0.1606,rock,0.0991
+31099980,Classical_Shadows and Light.mp3,['ambient'],ambient,0.2691,classical,0.0303,electronicDance,0.0243,jazz,0.0217,pop,0.0130
+31099978,Children_Adventure Awaits.mp3,['ambient'],ambient,0.0446,pop,0.0320,electronicDance,0.0228,singerSongwriter,0.0179,rock,0.0170
+27639510,Rainy Reflections.mp3,['ambient'],ambient,0.4519,jazz,0.0381,classical,0.0370,electronicDance,0.0269,pop,0.0080
+31099958,JS-Miles Davis - Blue In Green.mp3,['jazz'],jazz,0.8147,latin,0.1681,classical,0.0697,funkSoul,0.0340,singerSongwriter,0.0312
+27639514,Midnight Rendezvous.mp3,['jazz'],jazz,0.6068,ambient,0.0277,classical,0.0107,latin,0.0066,funkSoul,0.0054
+31099989,Jazz_Moonlit Serenade.mp3,['jazz'],jazz,0.7986,singerSongwriter,0.0340,latin,0.0308,funkSoul,0.0261,ambient,0.0174
+31099981,Classical_Whispering Elegance.mp3,"['classical', 'jazz', 'ambient']",classical,0.1067,jazz,0.0792,ambient,0.0698,pop,0.0122,singerSongwriter,0.0118
+31099949,PS-IU Love wins all.mp3,['pop'],pop,0.3497,rnb,0.1333,rock,0.0448,rapHipHop,0.0197,folkCountry,0.0155
+31099973,Ambient_Ethereal Skies.mp3,['ambient'],ambient,0.3016,rnb,0.0302,electronicDance,0.0295,pop,0.0242,jazz,0.0196
+31099955,JH-Basie - Straight Ahead.mp3,['jazz'],jazz,0.6383,blues,0.0993,funkSoul,0.0852,singerSongwriter,0.0174,pop,0.0137
+31099972,Ambient_Dream Drift.mp3,['ambient'],ambient,0.3559,jazz,0.0126,electronicDance,0.0090,classical,0.0069,pop,0.0042
+27639507,Sunset Serenade.mp3,['jazz'],jazz,0.2885,latin,0.0626,pop,0.0334,rock,0.0314,rnb,0.0306

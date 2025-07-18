@@ -1,0 +1,134 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.song-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px; /* 아이템 간의 간격 */
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.song-item {
+  padding: 12px 15px;
+  background-color: #fff;
+  cursor: grab;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  text-align: left;
+  transition: box-shadow 0.2s, color 0.2s;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.song-item:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  color: #0056b3;
+}
+
+/* Styles for CompareSong.jsx */
+.compare-song-container {
+  display: flex;
+  gap: 20px;
+}
+
+.compare-song-left-column {
+  flex: 1;
+  min-width: 36%;
+  flex-shrink: 0;
+  border-right: 1px solid #eee;
+  padding-right: 20px;
+}
+
+.drop-zone-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.song-search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.compare-song-right-column {
+  flex: 2;
+  max-width: 60%;
+}
+
+.vector-visualization-wrapper {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.selected-song-display {
+  flex: 1;
+  padding: 15px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f8f8f8;
+  min-height: 50px; /* Ensure consistent height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer; /* Indicate clickability */
+  transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s; /* Smooth transitions */
+}
+
+.selected-song-display:hover {
+  background-color: #ffe0e0; /* Light red to suggest deletion */
+  border-color: #ff6b6b; /* Red border */
+  box-shadow: 0 0 2px rgba(255, 107, 107, 0.5); /* Red glow */
+}
