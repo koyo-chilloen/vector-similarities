@@ -2,9 +2,10 @@ import json
 import csv
 import os
 
-json_dir = '/Users/koyo/vector-similarity-calculator/cyanite-vector'
-output_csv_path = '/Users/koyo/vector-similarity-calculator/public/song_data.csv'
-vector_keys_path = '/Users/koyo/vector-similarity-calculator/public/vector_keys.json'
+BASE_DIR = os.path.dirname(__file__)
+json_dir = os.path.join(BASE_DIR, '..', 'cyanite-vector')
+output_csv_path = os.path.join(BASE_DIR, '..', 'public', 'song_data.csv')
+vector_keys_path = os.path.join(BASE_DIR, '..', 'public', 'vector_keys.json')
 
 # Load vector keys once
 try:
