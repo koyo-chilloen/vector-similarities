@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vector Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1 style="font-family:Arial; text-align: center;">ORI - There's no one else</h1>
+    <canvas id="vectorChart" width="400" height="200"></canvas>
+    <script>
+        const v = [0.07147622648626566, 0.06335602803155779, 0.0519472811371088, 0.017716175003442913, 0.03035030363826081, 0.06333039510063827, 0.008467098290566355, 0.06843605011235923, 0.03438833417603746, 0.03731021559797228, 0.014477385836653412, 0.04599009291268885, 0.021248985140118748, 0.008578608500829431, 0.13868206953629852, 0.04198429470416158, 0.0433239315636456, 0.13770921500399708, 0.07831086227670311, 0.04133139848709107, 0.07816609563305973, 0.03152846584562212, 0.009548163166618906];
+        const norm_v = Math.sqrt(v.reduce((sum, val) => sum + val * val, 0));
+        const u = v.map(val => val / norm_v);
+        const keywords = [
+            "afro", "ambient", "arab", "asian", "blues", "childrenJingle", "classical", 
+            "electronicDance", "folkCountry", "funkSoul", "indian", "jazz", "latin", 
+            "metal", "pop", "rapHipHop", "reggae", "rnb", "rock", "singerSongwriters", 
+            "sound", "soundtrack", "spokenWord"
+        ];
+
+        const ctx = document.getElementById('vectorChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: keywords,
+                datasets: [{
+                    label: 'Vector v',
+                    data: v,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Vector u (Normalized v)',
+                    data: u,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 1
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+

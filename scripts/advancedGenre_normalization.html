@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vector Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <canvas id="vectorChart" width="400" height="200"></canvas>
+    <script>
+        const v = [0.042032661041178344, 0.09377145361421364, 0.018230175503828962, 0.01991866680327803, 0.022694071771443954, 0.0581163574409272, 0.017282054776192775, 0.10155866345615193, 0.03601483117589461, 0.01612556531160538, 0.011966718153936589, 0.026060737370114242, 0.02005379496508145, 0.01949141888748532, 0.0745365417429379, 0.027173284886105518, 0.01783683879849767, 0.05175483578516703, 0.04683076297598226, 0.02339496568311006, 0.06069889651345355, 0.03875105033927996, 0.007489013331775952];
+        const norm_v = Math.sqrt(v.reduce((sum, val) => sum + val * val, 0));
+        const u = v.map(val => val / norm_v);
+
+        const ctx = document.getElementById('vectorChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: v.map((_, i) => `Dimension ${i + 1}`),
+                datasets: [{
+                    label: 'Vector v',
+                    data: v,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Vector u (Normalized v)',
+                    data: u,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
